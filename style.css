@@ -594,3 +594,154 @@ footer {
     }
 
 }
+/* ================================
+   LOGIN PROJECT PREVIEW
+================================ */
+
+.login-preview {
+    width: 100%;
+    height: 100%;
+    min-height: 260px;
+    padding: 30px 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background:
+        radial-gradient(circle at top right,
+        rgba(56, 189, 248, 0.18),
+        transparent 40%),
+        linear-gradient(145deg, #0f172a, #111827);
+
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+/* Title */
+
+.login-preview-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    margin-bottom: 22px;
+
+    color: #f1f5f9;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.login-preview-title i {
+    font-size: 25px;
+    color: #38bdf8;
+}
+
+/* Inputs */
+
+.login-input {
+    width: 100%;
+    height: 38px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 0 12px;
+    margin-bottom: 12px;
+
+    box-sizing: border-box;
+
+    border: 1px solid rgba(148, 163, 184, 0.25);
+    border-radius: 7px;
+
+    background: rgba(255, 255, 255, 0.05);
+
+    color: #94a3b8;
+    font-size: 11px;
+}
+
+.login-input i {
+    color: #38bdf8;
+}
+
+/* Forgot password */
+
+.login-forgot {
+    text-align: right;
+
+    margin-bottom: 15px;
+
+    color: #38bdf8;
+    font-size: 9px;
+}
+
+/* Login button */
+
+.login-button {
+    width: 100%;
+    height: 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 7px;
+
+    background: #38bdf8;
+    color: #0f172a;
+
+    font-size: 11px;
+    font-weight: 800;
+
+    letter-spacing: 1px;
+
+    box-shadow: 0 5px 18px rgba(56, 189, 248, 0.25);
+
+    transition: 0.3s ease;
+}
+
+.login-button:hover {
+    transform: scale(1.02);
+}
+
+/* Sign up */
+
+.login-signup {
+    margin-top: 15px;
+
+    text-align: center;
+
+    color: #64748b;
+    font-size: 9px;
+}
+
+.login-signup span {
+    color: #38bdf8;
+    font-weight: 700;
+}
+
+
+/* ================================
+   PROJECTS GRID
+================================ */
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+}
+
+
+/* ================================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 768px) {
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    }
