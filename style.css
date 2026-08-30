@@ -306,21 +306,27 @@ footer {
 /* =========================
    PROJECTS SECTION
 ========================= */
-
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(3, 250px);
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
     margin-top: 45px;
 }
 
 .project-card {
+    width: 250px;
+    height: 250px;
     overflow: hidden;
     background: var(--card-bg);
     border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 22px;
+    border-radius: 18px;
+    padding: 15px;
+    margin: 0;
+    box-sizing: border-box;
     transition: 0.4s ease;
-}
+} 
 
 .project-card:hover {
     transform: translateY(-10px);
@@ -719,29 +725,26 @@ footer {
 
 .login-signup span {
     color: #38bdf8;
-    font-weight: 700;
-}
-
-
-/* ================================
-   PROJECTS GRID
-================================ */
-
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 30px;
-}
-
+    font-weight: 700;}
 
 /* ================================
    RESPONSIVE
 ================================ */
+@media (max-width: 850px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 250px);
+    }
+}
 
-@media (max-width: 768px) {
-
+@media (max-width: 560px) {
     .projects-grid {
         grid-template-columns: 1fr;
     }
 
+    .project-card {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
     }
+}
+
