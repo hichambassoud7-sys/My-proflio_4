@@ -1,304 +1,558 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Hicham Bassoud | Web Developer</title>
+
     <link rel="stylesheet" href="style.css">
+
     <!-- Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Tajawal:wght@400;700&display=swap"
+          rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
 </head>
+
+
 <body>
 
-    <!-- Navigation -->
+
+    <!-- ================= NAVIGATION ================= -->
+
     <nav>
+
         <div class="container nav-container">
+
             <div class="img_logo">
-                <img src="logo.jpg"/>
+
+                <img src="logo.jpg" alt="Hicham Bassoud Logo">
+
             </div>
-            
+
+
             <ul class="nav-links">
-                <li><a href="#home" data-i18n="nav-home">Home</a></li>
-                <li><a href="#about" data-i18n="nav-about">About</a></li>
-                <li><a href="#skills" data-i18n="nav-skills">Skills</a></li>
-                <li><a href="#projects" data-i18n="nav-projects">Projects</a></li>
-                <li><a href="#contact" data-i18n="nav-contact">Contact</a></li>
+
+                <li>
+                    <a href="#home" data-i18n="nav-home">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#about" data-i18n="nav-about">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#skills" data-i18n="nav-skills">
+                        Skills
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#projects" data-i18n="nav-projects">
+                        Projects
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact" data-i18n="nav-contact">
+                        Contact
+                    </a>
+                </li>
+
             </ul>
 
+
             <div class="nav-btns">
+
                 <select id="lang-switcher">
+
                     <option value="en">EN</option>
+
                     <option value="fr">FR</option>
+
                     <option value="ar">AR</option>
+
                 </select>
-                <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+
+
+                <button id="theme-toggle">
+
+                    <i class="fas fa-moon"></i>
+
+                </button>
+
+
                 <div class="hamburger">
-                    <span></span><span></span><span></span>
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
                 </div>
+
             </div>
+
         </div>
+
     </nav>
 
-    <!-- Hero Section -->
+
+
+    <!-- ================= HERO SECTION ================= -->
+
     <section id="home" class="hero">
+
         <div class="container">
+
             <div class="hero-content">
-                <h1 data-i18n="hero-title">Hi, I'm <span class="highlight">Hicham Bassoud</span></h1>
-                <p class="subtitle" data-i18n="hero-subtitle">15-Year-Old Student & Aspiring Web Developer</p>
+
+                <h1 data-i18n="hero-title">
+
+                    Hi, I'm
+                    <span class="highlight">
+                        Hicham Bassoud
+                    </span>
+
+                </h1>
+
+
+                <p class="subtitle" data-i18n="hero-subtitle">
+
+                    15-Year-Old Student & Aspiring Web Developer
+
+                </p>
+
+
                 <div class="hero-btns">
-                    <a href="#contact" class="btn primary" data-i18n="btn-contact">Contact Me</a>
+
+                    <a href="#contact"
+                       class="btn primary"
+                       data-i18n="btn-contact">
+
+                        Contact Me
+
+                    </a>
+
+
                     <div class="social-icons">
-                        <a href="https://wa.me/212751402319" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                        <a href="https://www.instagram.com/alpha_x___00?igsi=Ym5qM2xybjVmcWQw" target="_blank"><i class="fab fa-instagram"></i></a>
+
+                        <a href="https://wa.me/212751402319"
+                           target="_blank">
+
+                            <i class="fab fa-whatsapp"></i>
+
+                        </a>
+
+
+                        <a href="https://www.instagram.com/alpha_x___00?igsi=Ym5qM2xybjVmcWQw"
+                           target="_blank">
+
+                            <i class="fab fa-instagram"></i>
+
+                        </a>
+
                     </div>
+
                 </div>
+
             </div>
+
 
             <div class="hero-img">
+
                 <div class="img-border">
-                    <img src="Program.jpg">
+
+                    <img src="Program.jpg"
+                         alt="Programming">
+
                 </div>
+
             </div>
+
         </div>
+
     </section>
 
-    <!-- About Section -->
+
+
+    <!-- ================= ABOUT SECTION ================= -->
+
     <section id="about">
+
         <div class="container">
-            <h2 class="section-title" data-i18n="about-title">About Me</h2>
+
+            <h2 class="section-title"
+                data-i18n="about-title">
+
+                About Me
+
+            </h2>
+
+
             <div class="about-grid">
+
                 <div class="about-text">
-                    <p data-i18n="about-p1">I am a motivated 15-year-old student from Morocco with a passion for building the future of the web. I focus on creating clean, functional, and user-friendly digital experiences.</p>
-                    <p data-i18n="about-p2">Currently, I am mastering front-end technologies while expanding my knowledge in programming logic and back-end basics.</p>
+
+                    <p data-i18n="about-p1">
+
+                        I am a motivated 15-year-old student from Morocco
+                        with a passion for building the future of the web.
+                        I focus on creating clean, functional, and
+                        user-friendly digital experiences.
+
+                    </p>
+
+
+                    <p data-i18n="about-p2">
+
+                        Currently, I am mastering front-end technologies
+                        while expanding my knowledge in programming logic
+                        and back-end basics.
+
+                    </p>
+
                 </div>
+
             </div>
+
         </div>
+
     </section>
 
-    <!-- Skills Section -->
+
+
+    <!-- ================= SKILLS SECTION ================= -->
+
     <section id="skills" class="bg-alt">
+
         <div class="container">
-            <h2 class="section-title" data-i18n="skills-title">Skills</h2>
+
+            <h2 class="section-title"
+                data-i18n="skills-title">
+
+                Skills
+
+            </h2>
+
 
             <div class="skills-grid">
+
+
                 <div class="skill-card">
+
                     <i class="fab fa-html5"></i>
-                    <h3>HTML</h3>
-                    <span class="level" data-i18n="lvl-adv">Advanced</span>
+
+                    <h3>
+                        HTML
+                    </h3>
+
+                    <span class="level"
+                          data-i18n="lvl-adv">
+
+                        Advanced
+
+                    </span>
+
                 </div>
 
+
+
                 <div class="skill-card">
+
                     <i class="fab fa-css3-alt"></i>
-                    <h3>CSS</h3>
-                    <span class="level" data-i18n="lvl-adv">Advanced</span>
+
+                    <h3>
+                        CSS
+                    </h3>
+
+                    <span class="level"
+                          data-i18n="lvl-adv">
+
+                        Advanced
+
+                    </span>
+
                 </div>
 
+
+
                 <div class="skill-card">
+
                     <i class="fab fa-js"></i>
-                    <h3>JavaScript</h3>
-                    <span class="level" data-i18n="lvl-learn">Learning</span>
+
+                    <h3>
+                        JavaScript
+                    </h3>
+
+                    <span class="level"
+                          data-i18n="lvl-learn">
+
+                        Learning
+
+                    </span>
+
                 </div>
 
+
+
                 <div class="skill-card">
+
                     <i class="fab fa-python"></i>
-                    <h3>Python</h3>
-                    <span class="level" data-i18n="lvl-learn">Learning</span>
+
+                    <h3>
+                        Python
+                    </h3>
+
+                    <span class="level"
+                          data-i18n="lvl-learn">
+
+                        Learning
+
+                    </span>
+
                 </div>
+
+
             </div>
+
         </div>
+
     </section>
 
-    <!-- Services Section -->
+
+
+    <!-- ================= SERVICES SECTION ================= -->
+
     <section id="services">
+
         <div class="container">
-            <h2 class="section-title" data-i18n="services-title">Services</h2>
+
+            <h2 class="section-title"
+                data-i18n="services-title">
+
+                Services
+
+            </h2>
+
 
             <div class="services-grid">
-                <div class="service-item">
-                    <i class="fas fa-code"></i>
-                    <h3 data-i18n="ser-1-t">Web Development</h3>
-                    <p data-i18n="ser-1-d">Building responsive and modern websites using the latest standards.</p>
-                </div>
+
 
                 <div class="service-item">
-                    <i class="fas fa-paint-brush"></i>
-                    <h3 data-i18n="ser-2-t">UI Design</h3>
-                    <p data-i18n="ser-2-d">Creating clean and minimal interfaces for a great user experience.</p>
+
+                    <i class="fas fa-code"></i>
+
+                    <h3 data-i18n="ser-1-t">
+
+                        Web Development
+
+                    </h3>
+
+                    <p data-i18n="ser-1-d">
+
+                        Building responsive and modern websites
+                        using the latest standards.
+
+                    </p>
+
                 </div>
+
+
+
+                <div class="service-item">
+
+                    <i class="fas fa-paint-brush"></i>
+
+                    <h3 data-i18n="ser-2-t">
+
+                        UI Design
+
+                    </h3>
+
+                    <p data-i18n="ser-2-d">
+
+                        Creating clean and minimal interfaces
+                        for a great user experience.
+
+                    </p>
+
+                </div>
+
+
             </div>
+
         </div>
+
     </section>
 
-    <!-- Projects Section -->
-    <!-- Projects Section -->
-<section id="projects" class="bg-alt">
-
-    <div class="container">
-
-        <h2 class="section-title" data-i18n="projects-title">
-            My Projects
-        </h2>
-
-        <div class="projects-grid">
 
 
-            <!-- ================= PROJECT 01 ================= -->
-            <div class="project-card">
+    <!-- ================= PROJECTS SECTION ================= -->
 
-                <div class="project-image">
+    <section id="projects" class="bg-alt">
 
-                    <div class="mastercard-preview">
+        <div class="container">
 
-                        <div class="mc-logo">
-                            <span></span>
-                            <span></span>
-                        </div>
+            <h2 class="section-title"
+                data-i18n="projects-title">
 
-                        <div class="mc-chip"></div>
+                My Projects
 
-                        <div class="mc-number">
-                            5424&nbsp;&nbsp; 7512&nbsp;&nbsp; 3418&nbsp;&nbsp; 9021
-                        </div>
+            </h2>
 
-                        <div class="mc-bottom">
 
-                            <div>
-                                <small>CARD HOLDER</small>
-                                <strong>HICHAM BASSOUD</strong>
+            <div class="projects-grid">
+
+
+
+                <!-- ================= PROJECT 01 ================= -->
+
+                <div class="project-card">
+
+
+                    <div class="project-image">
+
+                        <div class="mastercard-preview">
+
+
+                            <div class="mc-logo">
+
+                                <span></span>
+                                <span></span>
+
                             </div>
 
-                            <div>
-                                <small>EXPIRES</small>
-                                <strong>12/29</strong>
+
+                            <div class="mc-chip"></div>
+
+
+                            <div class="mc-number">
+
+                                5424&nbsp;&nbsp;
+                                7512&nbsp;&nbsp;
+                                3418&nbsp;&nbsp;
+                                9021
+
+                            </div>
+
+
+                            <div class="mc-bottom">
+
+
+                                <div>
+
+                                    <small>
+                                        CARD HOLDER
+                                    </small>
+
+                                    <strong>
+                                        HICHAM BASSOUD
+                                    </strong>
+
+                                </div>
+
+
+                                <div>
+
+                                    <small>
+                                        EXPIRES
+                                    </small>
+
+                                    <strong>
+                                        12/29
+                                    </strong>
+
+                                </div>
+
+
                             </div>
 
                         </div>
 
                     </div>
 
-                </div>
 
 
-                <div class="project-content">
-
-                    <div class="project-top">
-
-                        <span class="project-category">
-                            Web Design
-                        </span>
-
-                        <span class="project-number">
-                            01
-                        </span>
-
-                    </div>
+                    <div class="project-content">
 
 
-                    <h3>
-                        Mastercard UI
-                    </h3>
+                        <div class="project-top">
 
+                            <span class="project-category">
+                                Web Design
+                            </span>
 
-                    <p>
-                        A modern and realistic Mastercard interface
-                        created with HTML and CSS, focusing on clean
-                        design, responsive layout and visual details.
-                    </p>
-
-
-                    <div class="project-tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>Responsive</span>
-                    </div>
-
-
-                    <div class="project-actions">
-
-                        <a href="Mastercard/index.html"
-                           target="_blank"
-                           class="project-btn project-primary">
-
-                            View Project
-                            <i class="fas fa-arrow-right"></i>
-
-                        </a>
-
-
-                        <a href="Mastercard/index.html"
-                           target="_blank"
-                           class="project-icon">
-
-                            <i class="fas fa-up-right-from-square"></i>
-
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-
-            <!-- ================= PROJECT 02 ================= -->
-            <div class="project-card">
-
-                <div class="project-image">
-
-                    <div class="login-preview">
-
-                        <div class="login-preview-title">
-
-                            <i class="fas fa-user-circle"></i>
-
-                            <span>
-                                Welcome Back
+                            <span class="project-number">
+                                01
                             </span>
 
                         </div>
 
 
-                        <div class="login-input">
+                        <h3>
+                            Mastercard UI
+                        </h3>
 
-                            <i class="fas fa-envelope"></i>
 
-                            <span>
-                                Email
-                            </span>
+                        <p>
+
+                            A modern and realistic Mastercard interface
+                            created with HTML and CSS, focusing on clean
+                            design, responsive layout and visual details.
+
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Responsive</span>
 
                         </div>
 
 
-                        <div class="login-input">
-
-                            <i class="fas fa-lock"></i>
-
-                            <span>
-                                Password
-                            </span>
-
-                        </div>
+                        <div class="project-actions">
 
 
-                        <div class="login-forgot">
-                            Forgot Password?
-                        </div>
+                            <a href="Mastercard/index.html"
+                               target="_blank"
+                               class="project-btn project-primary">
+
+                                View Project
+
+                                <i class="fas fa-arrow-right"></i>
+
+                            </a>
 
 
-                        <div class="login-button">
-                            LOGIN
-                        </div>
+                            <a href="Mastercard/index.html"
+                               target="_blank"
+                               class="project-icon">
+
+                                <i class="fas fa-up-right-from-square"></i>
+
+                            </a>
 
 
-                        <div class="login-signup">
-                            Don't have an account?
-                            <span>Sign Up</span>
                         </div>
 
                     </div>
@@ -306,225 +560,409 @@
                 </div>
 
 
-                <div class="project-content">
 
-                    <div class="project-top">
+                <!-- ================= PROJECT 02 ================= -->
 
-                        <span class="project-category">
-                            Web Design
-                        </span>
+                <div class="project-card">
 
-                        <span class="project-number">
-                            02
-                        </span>
+
+                    <div class="project-image">
+
+
+                        <div class="login-preview">
+
+
+                            <div class="login-preview-title">
+
+                                <i class="fas fa-user-circle"></i>
+
+                                <span>
+                                    Welcome Back
+                                </span>
+
+                            </div>
+
+
+                            <div class="login-input">
+
+                                <i class="fas fa-envelope"></i>
+
+                                <span>
+                                    Email
+                                </span>
+
+                            </div>
+
+
+                            <div class="login-input">
+
+                                <i class="fas fa-lock"></i>
+
+                                <span>
+                                    Password
+                                </span>
+
+                            </div>
+
+
+                            <div class="login-forgot">
+
+                                Forgot Password?
+
+                            </div>
+
+
+                            <div class="login-button">
+
+                                LOGIN
+
+                            </div>
+
+
+                            <div class="login-signup">
+
+                                Don't have an account?
+
+                                <span>
+                                    Sign Up
+                                </span>
+
+                            </div>
+
+
+                        </div>
 
                     </div>
 
 
-                    <h3>
-                        Login
-                    </h3>
+
+                    <div class="project-content">
 
 
-                    <p>
-                        A clean and modern login page built with
-                        HTML and CSS, featuring a simple interface,
-                        smooth animations and responsive design.
-                    </p>
+                        <div class="project-top">
+
+                            <span class="project-category">
+                                Web Design
+                            </span>
+
+                            <span class="project-number">
+                                02
+                            </span>
+
+                        </div>
 
 
-                    <div class="project-tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>Responsive</span>
-                    </div>
+                        <h3>
+                            Login
+                        </h3>
 
 
-                    <div class="project-actions">
+                        <p>
 
-                        <a href="Login/index.html"
-                           target="_blank"
-                           class="project-btn project-primary">
+                            A clean and modern login page built with
+                            HTML and CSS, featuring a simple interface,
+                            smooth animations and responsive design.
 
-                            View Project
-                            <i class="fas fa-arrow-right"></i>
-
-                        </a>
+                        </p>
 
 
-                        <a href="Login/index.html"
-                           target="_blank"
-                           class="project-icon">
+                        <div class="project-tech">
 
-                            <i class="fas fa-up-right-from-square"></i>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Responsive</span>
 
-                        </a>
+                        </div>
+
+
+                        <div class="project-actions">
+
+
+                            <a href="Login/index.html"
+                               target="_blank"
+                               class="project-btn project-primary">
+
+                                View Project
+
+                                <i class="fas fa-arrow-right"></i>
+
+                            </a>
+
+
+                            <a href="Login/index.html"
+                               target="_blank"
+                               class="project-icon">
+
+                                <i class="fas fa-up-right-from-square"></i>
+
+                            </a>
+
+
+                        </div>
 
                     </div>
 
                 </div>
 
-            </div>
+
+
+                <!-- ================= PROJECT 03 ================= -->
+
+                <div class="project-card">
+
+
+                    <div class="project-image">
+
+
+                        <div class="login-preview">
+
+
+                            <div class="login-preview-title">
+
+                                <i class="fas fa-user-plus"></i>
+
+                                <span>
+                                    Create Account
+                                </span>
+
+                            </div>
+
+
+                            <div class="login-input">
+
+                                <i class="fas fa-user"></i>
+
+                                <span>
+                                    Username
+                                </span>
+
+                            </div>
+
+
+                            <div class="login-input">
+
+                                <i class="fas fa-envelope"></i>
+
+                                <span>
+                                    Email Address
+                                </span>
+
+                            </div>
+
+
+                            <div class="login-input">
+
+                                <i class="fas fa-lock"></i>
+
+                                <span>
+                                    Create Password
+                                </span>
+
+                            </div>
+
+
+                            <div class="login-input">
+
+                                <i class="fas fa-shield-alt"></i>
+
+                                <span>
+                                    Confirm Password
+                                </span>
+
+                            </div>
+
+
+                            <div class="login-button">
+
+                                CREATE ACCOUNT
+
+                            </div>
+
+
+                            <div class="login-signup">
+
+                                Already have an account?
+
+                                <span>
+                                    Login
+                                </span>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
 
 
 
-            <!-- ================= PROJECT 03 ================= -->
-            <!-- ================= PROJECT 03 : LOGIN FORM ================= -->
-<div class="project-card">
+                    <div class="project-content">
 
-    <div class="project-image">
 
-        <div class="login-preview">
+                        <div class="project-top">
 
-            <!-- Title -->
-            <div class="login-preview-title">
-                <i class="fas fa-user-plus"></i>
-                <span>Create Account</span>
-            </div>
+                            <span class="project-category">
+                                Web Design
+                            </span>
 
-            <!-- Username -->
-            <div class="login-input">
-                <i class="fas fa-user"></i>
-                <span>Username</span>
-            </div>
+                            <span class="project-number">
+                                03
+                            </span>
 
-            <!-- Email -->
-            <div class="login-input">
-                <i class="fas fa-envelope"></i>
-                <span>Email Address</span>
-            </div>
+                        </div>
 
-            <!-- Password -->
-            <div class="login-input">
-                <i class="fas fa-lock"></i>
-                <span>Create Password</span>
-            </div>
 
-            <!-- Confirm Password -->
-            <div class="login-input">
-                <i class="fas fa-shield-alt"></i>
-                <span>Confirm Password</span>
-            </div>
+                        <h3>
+                            Login Form
+                        </h3>
 
-            <!-- Sign Up Button -->
-            <div class="login-button">
-                CREATE ACCOUNT
-            </div>
 
-            <!-- Login -->
-            <div class="login-signup">
-                Already have an account?
-                <span>Login</span>
+                        <p>
+
+                            A modern and stylish login form created with
+                            HTML and CSS, featuring clean input fields,
+                            smooth animations and a responsive design.
+
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Responsive</span>
+
+                        </div>
+
+
+                        <div class="project-actions">
+
+
+                            <a href="Login%20Form/index.html"
+                               target="_blank"
+                               class="project-btn project-primary">
+
+                                View Project
+
+                                <i class="fas fa-arrow-right"></i>
+
+                            </a>
+
+
+                            <a href="Login%20Form/index.html"
+                               target="_blank"
+                               class="project-icon"
+                               aria-label="Open Login Form">
+
+                                <i class="fas fa-up-right-from-square"></i>
+
+                            </a>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
             </div>
 
         </div>
 
-    </div>
+    </section>
 
 
-    <div class="project-content">
 
-        <!-- Project Top -->
-        <div class="project-top">
+    <!-- ================= CONTACT SECTION ================= -->
 
-            <span class="project-category">
-                Web Design
-            </span>
-
-            <span class="project-number">
-                03
-            </span>
-
-        </div>
-
-
-        <!-- Project Title -->
-        <h3>
-            Login Form
-        </h3>
-
-
-        <!-- Project Description -->
-        <p>
-            A modern and stylish login form created with
-            HTML and CSS, featuring clean input fields,
-            smooth animations and a responsive design.
-        </p>
-
-
-        <!-- Technologies -->
-        <div class="project-tech">
-
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>Responsive</span>
-
-        </div>
-
-
-        <!-- Project Actions -->
-        <div class="project-actions">
-
-            <a href="Login%20Form/index.html"
-               target="_blank"
-               class="project-btn project-primary">
-
-                View Project
-
-                <i class="fas fa-arrow-right"></i>
-
-            </a>
-
-
-            <a href="Login%20Form/index.html"
-               target="_blank"
-               class="project-icon"
-               aria-label="Open Login Form">
-
-                <i class="fas fa-up-right-from-square"></i>
-
-            </a>
-
-        </div>
-
-    </div>
-
-                                  </div>
-<!-- Contact Section -->
     <section id="contact">
-        < div  class = "container" >
-            < h2  class = "section-title"  data-i18n = "contact-title" > تواصل معنا </ h2 >
 
-            < div  class = "contact-wrapper" >
-                < div  class = "contact-info" >
+        <div class="container">
 
-                    < p  data-i18n = "contact-p" >
-                        لا تتردد في التواصل معي للتعاون أو لمجرد إلقاء التحية.
-                    </p>​​
+
+            <h2 class="section-title"
+                data-i18n="contact-title">
+
+                تواصل معنا
+
+            </h2>
+
+
+            <div class="contact-wrapper">
+
+
+                <div class="contact-info">
+
+
+                    <p data-i18n="contact-p">
+
+                        لا تتردد في التواصل معي للتعاون
+                        أو لمجرد إلقاء التحية.
+
+                    </p>
+
 
                     <div class="contact-links">
 
-                        <a href="https://wa.me/212751402319" class="contact-btn wa">
-                            <i class="fab fa-whatsapp"></i> WhatsApp
+
+                        <a href="https://wa.me/212751402319"
+                           class="contact-btn wa">
+
+                            <i class="fab fa-whatsapp"></i>
+
+                            WhatsApp
+
                         </a>
 
-                        <a href="https://www.instagram.com/alpha_x___00?igsi=Ym5qM2xybjVmcWQw" class="contact-btn ig">
-                            <i class="fab fa-instagram"></i> Instagram
+
+                        <a href="https://www.instagram.com/alpha_x___00?igsi=Ym5qM2xybjVmcWQw"
+                           class="contact-btn ig">
+
+                            <i class="fab fa-instagram"></i>
+
+                            Instagram
+
                         </a>
+
 
                     </div>
+
                 </div>
+
             </div>
+
         </div>
+
     </section>
 
+
+
+    <!-- ================= FOOTER ================= -->
+
     <footer>
+
         <p>
+
             &copy; 2026 Hicham Bassoud.
-            <span data-i18n="footer">All rights reserved.</span>
+
+            <span data-i18n="footer">
+
+                All rights reserved.
+
+            </span>
+
         </p>
+
     </footer>
 
+
+
+    <!-- JavaScript -->
+
     <script src="script.js"></script>
+
+
 </body>
-</html>
+
+        </html>
